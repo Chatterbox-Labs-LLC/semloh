@@ -1,7 +1,47 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { Linkedin, Twitter } from "lucide-react";
+import Link from "next/link";
 
 export default function LeadershipPage() {
+  const leaders = [
+    {
+      name: "George Holmes",
+      role: "Founder & CEO",
+      email: "george@semlohcorp.com",
+      bio: "Leading the firm's strategic vision across software development and investment operations.",
+      socials: { x: "#", linkedin: "#" }
+    },
+    {
+      name: "Edward Spencer",
+      role: "President",
+      email: "edward@semlohcorp.com",
+      bio: "Directing firm operations and institutional strategy across all business units.",
+      socials: { x: "#", linkedin: "#" }
+    },
+    {
+      name: "Connor Dugan",
+      role: "CTO",
+      email: "connor@semlohcorp.com",
+      bio: "Overseeing technical architecture and product engineering for Semloh's software portfolio.",
+      socials: { x: "#", linkedin: "#" }
+    },
+    {
+      name: "Nico Paskitwitz",
+      role: "Chief Investor Officer",
+      email: "nico@semlohcorp.com",
+      bio: "Managing capital allocation and portfolio strategy across public and private markets.",
+      socials: { x: "#", linkedin: "#" }
+    },
+    {
+      name: "Michael Chessare",
+      role: "Board Member",
+      email: "micheal@semlohcorp.com",
+      bio: "Providing governance and strategic oversight to the firm's executive leadership.",
+      socials: { x: "#", linkedin: "#" }
+    }
+  ];
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
@@ -15,60 +55,28 @@ export default function LeadershipPage() {
 
         <section className="py-24 px-8 max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
-            <div className="space-y-4">
-              <div className="border-b pb-4">
-                <div className="text-lg font-medium uppercase tracking-widest">George Holmes</div>
-                <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">Founder & CEO</div>
-                <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">george@semlohcorp.com</div>
+            {leaders.map((leader) => (
+              <div key={leader.name} className="space-y-4">
+                <div className="border-b pb-4">
+                  <div className="flex justify-between items-start">
+                    <div className="text-lg font-medium uppercase tracking-widest">{leader.name}</div>
+                    <div className="flex gap-2">
+                      <Link href={leader.socials.x} className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+                        <Twitter className="h-3.5 w-3.5" />
+                      </Link>
+                      <Link href={leader.socials.linkedin} className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+                        <Linkedin className="h-3.5 w-3.5" />
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">{leader.role}</div>
+                  <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">{leader.email}</div>
+                </div>
+                <p className="text-sm text-muted-foreground font-normal leading-relaxed">
+                  {leader.bio}
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground font-normal leading-relaxed">
-                Leading the firm's strategic vision across software development and investment operations.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="border-b pb-4">
-                <div className="text-lg font-medium uppercase tracking-widest">Edward Spencer</div>
-                <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">President</div>
-                <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">edward@semlohcorp.com</div>
-              </div>
-              <p className="text-sm text-muted-foreground font-normal leading-relaxed">
-                Directing firm operations and institutional strategy across all business units.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="border-b pb-4">
-                <div className="text-lg font-medium uppercase tracking-widest">Connor Dugan</div>
-                <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">CTO</div>
-                <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">connor@semlohcorp.com</div>
-              </div>
-              <p className="text-sm text-muted-foreground font-normal leading-relaxed">
-                Overseeing technical architecture and product engineering for Semloh's software portfolio.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="border-b pb-4">
-                <div className="text-lg font-medium uppercase tracking-widest">Nico Paskitwitz</div>
-                <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">Chief Investor Officer</div>
-                <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">nico@semlohcorp.com</div>
-              </div>
-              <p className="text-sm text-muted-foreground font-normal leading-relaxed">
-                Managing capital allocation and portfolio strategy across public and private markets.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="border-b pb-4">
-                <div className="text-lg font-medium uppercase tracking-widest">Michael Chessare</div>
-                <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">Board Member</div>
-                <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">micheal@semlohcorp.com</div>
-              </div>
-              <p className="text-sm text-muted-foreground font-normal leading-relaxed">
-                Providing governance and strategic oversight to the firm's executive leadership.
-              </p>
-            </div>
+            ))}
           </div>
         </section>
 

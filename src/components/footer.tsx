@@ -1,14 +1,28 @@
 import Link from "next/link";
+import { Github, Youtube, Twitter } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="py-24 px-8 border-t bg-zinc-50 dark:bg-zinc-950">
       <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12">
-        <div className="col-span-2">
-          <div className="text-lg font-medium tracking-widest uppercase mb-6">Semloh</div>
-          <p className="text-sm text-muted-foreground max-w-xs font-normal">
-            A multidisciplinary firm dedicated to software development, strategic consulting, and venture investing.
-          </p>
+        <div className="col-span-2 space-y-8">
+          <div>
+            <div className="text-lg font-medium tracking-widest uppercase mb-6">Semloh</div>
+            <p className="text-sm text-muted-foreground max-w-xs font-normal">
+              A multidisciplinary firm dedicated to software development, strategic consulting, and venture investing.
+            </p>
+          </div>
+          <div className="flex gap-6">
+            <Link href="#" className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+              <Twitter className="h-5 w-5" />
+            </Link>
+            <Link href="#" className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+              <Github className="h-5 w-5" />
+            </Link>
+            <Link href="#" className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+              <Youtube className="h-5 w-5" />
+            </Link>
+          </div>
         </div>
         
         <div className="flex flex-col space-y-4">
