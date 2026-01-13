@@ -43,6 +43,7 @@ export function Footer() {
           <div className="text-xs uppercase tracking-widest font-medium mb-2 text-muted-foreground">Solutions</div>
           <Link href="/software" className="text-sm font-medium hover:opacity-50 transition-opacity">Software</Link>
           <Link href="/consulting" className="text-sm font-medium hover:opacity-50 transition-opacity">Consulting</Link>
+          <Link href="/consulting/our-work" className="text-sm font-medium hover:opacity-50 transition-opacity pl-2 border-l border-zinc-200 dark:border-zinc-800">Our Work</Link>
           <Link href="/investing" className="text-sm font-medium hover:opacity-50 transition-opacity">Investing</Link>
         </div>
 
