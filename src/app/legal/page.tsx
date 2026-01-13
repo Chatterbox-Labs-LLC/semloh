@@ -27,6 +27,7 @@ export default function LegalPage() {
                 <div className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">Sections</div>
                 <nav className="flex flex-col space-y-4">
                   <a href="#entities" className="text-sm font-medium hover:opacity-60 transition-opacity">Global Entities</a>
+                  <a href="#trademarks" className="text-sm font-medium hover:opacity-60 transition-opacity">Intellectual Property</a>
                   <a href="#terms" className="text-sm font-medium hover:opacity-60 transition-opacity">Terms of Service</a>
                   <a href="#privacy" className="text-sm font-medium hover:opacity-60 transition-opacity">Privacy Policy</a>
                   <a href="#disclosures" className="text-sm font-medium hover:opacity-60 transition-opacity">Institutional Disclosures</a>
@@ -69,6 +70,31 @@ export default function LegalPage() {
                 </div>
               </section>
 
+              {/* Intellectual Property */}
+              <section id="trademarks" className="space-y-8">
+                <h2 className="text-3xl font-medium uppercase tracking-tight">Intellectual Property</h2>
+                <div className="prose prose-zinc dark:prose-invert max-w-none space-y-6 text-muted-foreground font-normal leading-relaxed">
+                  <p>
+                    The visual identity, proprietary software, and strategic methodologies of Semloh Solutions are protected by international copyright and trademark laws.
+                  </p>
+                  
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Trademarks</h3>
+                  <p>
+                    "Semloh", "Semloh Solutions", "WeTrade", and the Semloh brand mark are registered or pending trademarks of Semloh Solutions LLC. The use of these trademarks without express written authorization is strictly prohibited.
+                  </p>
+
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Proprietary Software</h3>
+                  <p>
+                    All source code, algorithms, and technical architectures developed by the Firm remain the exclusive intellectual property of Semloh Solutions LLC. Unauthorized reverse engineering, distribution, or replication of our software platforms—including but not limited to WeTrade—will result in immediate legal action.
+                  </p>
+
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Content Rights</h3>
+                  <p>
+                    All editorial content, news releases, and research materials published by Semloh Solutions are the property of the Firm. Reproduction of these materials requires explicit attribution and prior written consent.
+                  </p>
+                </div>
+              </section>
+
               {/* Terms of Service */}
               <section id="terms" className="space-y-8">
                 <h2 className="text-3xl font-medium uppercase tracking-tight">Terms of Service</h2>
@@ -76,9 +102,12 @@ export default function LegalPage() {
                   <p>
                     By accessing the platforms and services provided by Semloh Solutions ("the Firm", collectively comprising Semloh Solutions LLC and its global subsidiaries), you agree to be bound by these Terms of Service. Our services include but are not limited to software-as-a-service platforms, technical consulting engagements, and investment advisory communications.
                   </p>
-                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Use of Services</h3>
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Liability and Warranties</h3>
                   <p>
-                    You agree to use our services only for lawful purposes and in accordance with institutional guidelines. Any unauthorized use of our technical infrastructure or proprietary software is strictly prohibited.
+                    While we strive for technical excellence, the Firm provides its software and consulting services on an "as-is" and "as-available" basis. We make no warranties, expressed or implied, regarding the continuous availability or absolute security of our digital platforms.
+                  </p>
+                  <p>
+                    In no event shall Semloh Solutions LLC or its global subsidiaries be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our services.
                   </p>
                 </div>
               </section>
