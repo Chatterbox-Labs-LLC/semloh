@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
-import { Brain, Cpu, Database, Search } from "lucide-react";
+import Link from "next/link";
+import { Brain, Cpu, Database, Search, ChevronRight } from "lucide-react";
 
 export default function SherlockPage() {
   return (
@@ -49,10 +50,20 @@ export default function SherlockPage() {
                   </div>
                 </div>
               </div>
-              <div className="pt-8 p-6 bg-zinc-50 dark:bg-zinc-900 border space-y-4">
-                <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Strategic Partner</div>
-                <div className="flex items-center gap-4 grayscale opacity-80">
-                  <div className="text-xl font-bold tracking-tighter">ANTHROPIC</div>
+              <div className="pt-8 p-6 bg-zinc-50 dark:bg-zinc-900 border space-y-6">
+                <div className="flex justify-between items-start">
+                  <div className="space-y-4">
+                    <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Strategic Partner</div>
+                    <div className="flex items-center gap-4 grayscale opacity-80">
+                      <div className="text-xl font-bold tracking-tighter">ANTHROPIC</div>
+                    </div>
+                  </div>
+                  <Link 
+                    href="/news/anthropic-partnership-sherlock"
+                    className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
+                  >
+                    Learn More <ChevronRight className="w-3 h-3" />
+                  </Link>
                 </div>
               </div>
             </div>
