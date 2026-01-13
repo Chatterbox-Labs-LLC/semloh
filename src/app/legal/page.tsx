@@ -26,21 +26,55 @@ export default function LegalPage() {
               <div className="space-y-4">
                 <div className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">Sections</div>
                 <nav className="flex flex-col space-y-4">
+                  <a href="#entities" className="text-sm font-medium hover:opacity-60 transition-opacity">Global Entities</a>
                   <a href="#terms" className="text-sm font-medium hover:opacity-60 transition-opacity">Terms of Service</a>
                   <a href="#privacy" className="text-sm font-medium hover:opacity-60 transition-opacity">Privacy Policy</a>
                   <a href="#disclosures" className="text-sm font-medium hover:opacity-60 transition-opacity">Institutional Disclosures</a>
-                  <a href="#cookies" className="text-sm font-medium hover:opacity-60 transition-opacity">Cookie Policy</a>
                 </nav>
               </div>
             </aside>
 
             <div className="space-y-32">
+              {/* Global Entities */}
+              <section id="entities" className="space-y-8">
+                <h2 className="text-3xl font-medium uppercase tracking-tight">Global Entity Structure</h2>
+                <div className="prose prose-zinc dark:prose-invert max-w-none space-y-6 text-muted-foreground font-normal leading-relaxed">
+                  <p>
+                    Semloh Solutions operates through a global network of specialized entities designed to meet regional regulatory requirements and operational demands. 
+                    <strong className="text-black dark:text-white font-medium"> Semloh Solutions LLC</strong> serves as the primary parent entity and global headquarters.
+                  </p>
+                  
+                  <div className="grid sm:grid-cols-2 gap-8 mt-12">
+                    <div className="space-y-2 border-l border-zinc-200 dark:border-zinc-800 pl-6">
+                      <h4 className="text-[10px] font-medium uppercase tracking-[0.2em] text-black dark:text-white">Americas</h4>
+                      <p className="text-sm">Semloh Solutions Americas LLC</p>
+                    </div>
+                    <div className="space-y-2 border-l border-zinc-200 dark:border-zinc-800 pl-6">
+                      <h4 className="text-[10px] font-medium uppercase tracking-[0.2em] text-black dark:text-white">Europe</h4>
+                      <p className="text-sm">Semloh Solutions EU LLC</p>
+                    </div>
+                    <div className="space-y-2 border-l border-zinc-200 dark:border-zinc-800 pl-6">
+                      <h4 className="text-[10px] font-medium uppercase tracking-[0.2em] text-black dark:text-white">Asia-Pacific</h4>
+                      <p className="text-sm">Semloh Solutions Asia LLC</p>
+                    </div>
+                    <div className="space-y-2 border-l border-zinc-200 dark:border-zinc-800 pl-6">
+                      <h4 className="text-[10px] font-medium uppercase tracking-[0.2em] text-black dark:text-white">Oceania</h4>
+                      <p className="text-sm">Semloh Solutions New Zealand LLC</p>
+                    </div>
+                  </div>
+
+                  <p className="text-sm italic mt-8">
+                    Engagement with the Firm may be facilitated through one or more of the above entities depending on jurisdiction, service type, and regulatory framework.
+                  </p>
+                </div>
+              </section>
+
               {/* Terms of Service */}
               <section id="terms" className="space-y-8">
                 <h2 className="text-3xl font-medium uppercase tracking-tight">Terms of Service</h2>
                 <div className="prose prose-zinc dark:prose-invert max-w-none space-y-6 text-muted-foreground font-normal leading-relaxed">
                   <p>
-                    By accessing the platforms and services provided by Semloh Solutions ("the Firm"), you agree to be bound by these Terms of Service. Our services include but are not limited to software-as-a-service platforms, technical consulting engagements, and investment advisory communications.
+                    By accessing the platforms and services provided by Semloh Solutions ("the Firm", collectively comprising Semloh Solutions LLC and its global subsidiaries), you agree to be bound by these Terms of Service. Our services include but are not limited to software-as-a-service platforms, technical consulting engagements, and investment advisory communications.
                   </p>
                   <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Use of Services</h3>
                   <p>
