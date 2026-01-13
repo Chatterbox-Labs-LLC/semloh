@@ -58,7 +58,7 @@ export function Footer() {
       </div>
       
       <div className="max-w-5xl mx-auto mt-24 pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-medium">
-        <p className="font-medium">&copy; {new Date().getFullYear()} Semloh. All rights reserved.</p>
+        <p className="font-medium">&copy; 2024-{new Date().getFullYear()} Semloh. All rights reserved.</p>
         <div className="flex gap-8">
           <Link href="#" className="hover:text-primary transition-colors font-medium">Privacy</Link>
           <Link href="#" className="hover:text-primary transition-colors font-medium">Terms</Link>
