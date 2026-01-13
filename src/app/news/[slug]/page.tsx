@@ -6,38 +6,25 @@ import { notFound } from "next/navigation";
 
 // Mock news data - in a real app, this would come from a CMS or DB
 const newsArticles = {
-  "expansion-technical-consulting": {
+  "anthropic-partnership-sherlock": {
     date: "January 12, 2026",
-    title: "Semloh Solutions Announces Expansion of Technical Consulting Division",
-    category: "Company News",
+    title: "Semloh Solutions Announces Strategic Partnership with Anthropic",
+    category: "Partnership",
     content: `
-      <p>Semloh Solutions is pleased to announce a significant expansion of its technical consulting division, responding to the growing demand for institutional-grade digital transformation and architectural guidance.</p>
-      <p>Since its inception, the firm has focused on bridging the gap between abstract technical potential and concrete institutional value. This expansion includes the appointment of three new senior technical leads and the opening of a dedicated research lab focused on high-performance web architecture.</p>
-      <h3>Strategic Focus</h3>
-      <p>The expanded division will prioritize three core areas: System Resilience, Cloud Infrastructure Optimization, and Modern Frontend Architecture. By deepening our expertise in these domains, we ensure that our clients continue to receive the most advanced technical guidance in an ever-evolving digital landscape.</p>
-      <p>"Our goal has always been precision in execution and clarity in strategy," said George Holmes, Founder & CEO of Semloh. "This expansion allows us to take on more complex challenges while maintaining the boutique, high-fidelity service our partners expect."</p>
-    `
-  },
-  "wetrade-private-beta": {
-    date: "December 05, 2025",
-    title: "WeTrade Platform Enters Private Beta for Institutional Partners",
-    category: "Product Update",
-    content: `
-      <p>The WeTrade platform, Semloh's flagship institutional-grade trading architecture, has officially entered its private beta phase. A select group of institutional partners has been granted access to the platform's core execution and clearing modules.</p>
-      <p>Built on a foundation of low-latency architecture and deep liquidity integration, WeTrade represents the next generation of multi-asset trading platforms. The beta phase will focus on stress-testing the global clearing infrastructure and refining the user interface for professional traders.</p>
-      <h3>Technological Milestones</h3>
-      <p>During the development phase, the team achieved several key milestones, including sub-millisecond execution times for digital asset pairs and seamless integration with legacy banking APIs for traditional stock and bond clearing.</p>
-    `
-  },
-  "ai-infrastructure-investment": {
-    date: "October 20, 2025",
-    title: "Semloh Participates in Series A for AI-Driven Infrastructure Startup",
-    category: "Investment",
-    content: `
-      <p>Semloh is proud to announce its participation in the $25M Series A funding round for a leading-edge startup focused on AI-driven cloud infrastructure optimization.</p>
-      <p>This investment aligns with Semloh's strategy of allocating capital to ventures that are building the fundamental building blocks of the future technical landscape. The startup's proprietary orchestration engine allows for dynamic scaling of compute resources based on real-time AI model requirements, significantly reducing infrastructure costs for high-growth firms.</p>
-      <h3>Technical Due Diligence</h3>
-      <p>As part of our investment process, the Semloh engineering team conducted an exhaustive technical audit of the startup's core engine, verifying its scalability and security protocols. This technical-first approach to investing ensures that our capital is backed by engineering reality.</p>
+      <p>Semloh Solutions is pleased to announce a strategic partnership with Anthropic, a leader in AI safety and research. This collaboration marks a significant milestone in our mission to deliver institutional-grade artificial intelligence solutions.</p>
+      <h3>Sherlock: The Future of Institutional Assistance</h3>
+      <p>At the core of this partnership is the development of <strong>Sherlock</strong>, our next-generation AI assistant. By leveraging Anthropic's high-performance Claude API, Sherlock is engineered to provide unprecedented levels of analytical depth, security, and reliability for our clients.</p>
+      <p>Sherlock is designed to operate within the complex regulatory and technical frameworks of modern enterprise. Unlike general-purpose models, Sherlock is fine-tuned to understand the nuances of technical consulting, institutional trading, and strategic capital allocation.</p>
+      <h3>The Claude Advantage</h3>
+      <p>The decision to partner with Anthropic was driven by their industry-leading commitment to AI safety and Constitutional AI. By utilizing the Claude API, Sherlock benefits from:</p>
+      <ul>
+        <li><strong>Institutional Security:</strong> Enterprise-grade data protection and privacy standards.</li>
+        <li><strong>Advanced Reasoning:</strong> Superior performance in complex logical analysis and technical documentation.</li>
+        <li><strong>Reliability:</strong> Reduced hallucination rates and consistent output for critical operations.</li>
+      </ul>
+      <h3>Integration Across the Semloh Ecosystem</h3>
+      <p>Sherlock will be integrated across our entire product suite, including our upcoming institutional trading platform, WeTrade, and our boutique consulting workflows. This integration ensures that our partners have access to the most sophisticated AI tools available in the market today.</p>
+      <p>"This partnership with Anthropic allows us to push the boundaries of what's possible in institutional AI," said the Firm's technical leadership. "With Sherlock, we are not just building a chatbot; we are building a cognitive partner for the modern institution."</p>
     `
   }
 };

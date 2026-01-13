@@ -9,7 +9,7 @@ export function Navbar() {
       
       <div className="hidden md:flex items-center space-x-12">
         <div className="flex space-x-10 text-[11px] uppercase tracking-widest font-medium">
-          <Link href="/software" className="hover:opacity-50 transition-opacity">Software</Link>
+          <Link href="/product" className="hover:opacity-50 transition-opacity">Software</Link>
           <Link href="/consulting" className="hover:opacity-50 transition-opacity">Consulting</Link>
           <Link href="/investing" className="hover:opacity-50 transition-opacity">Investing</Link>
           <Link href="/leadership" className="hover:opacity-50 transition-opacity">Leadership</Link>

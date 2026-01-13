@@ -7,24 +7,10 @@ export default function NewsroomPage() {
   const news = [
     {
       date: "January 12, 2026",
-      title: "Semloh Solutions Announces Expansion of Technical Consulting Division",
-      excerpt: "Responding to increased demand for institutional-grade digital transformation, the firm expands its boutique consulting team.",
-      category: "Company News",
-      link: "/news/expansion-technical-consulting"
-    },
-    {
-      date: "December 05, 2025",
-      title: "WeTrade Platform Enters Private Beta for Institutional Partners",
-      excerpt: "The next generation of institutional trading architecture reaches a major development milestone.",
-      category: "Product Update",
-      link: "/news/wetrade-private-beta"
-    },
-    {
-      date: "October 20, 2025",
-      title: "Semloh Participates in Series A for AI-Driven Infrastructure Startup",
-      excerpt: "Strategic capital allocation focused on the future of scalable cloud compute.",
-      category: "Investment",
-      link: "/news/ai-infrastructure-investment"
+      title: "Semloh Solutions Announces Strategic Partnership with Anthropic",
+      excerpt: "Leveraging Anthropic's Claude API to power Sherlock, our next-generation institutional AI assistant.",
+      category: "Partnership",
+      link: "/news/anthropic-partnership-sherlock"
     }
   ];
 

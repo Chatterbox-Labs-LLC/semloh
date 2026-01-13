@@ -20,9 +20,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/legal',
     '/privacy',
     '/terms',
-    '/news/expansion-technical-consulting',
-    '/news/wetrade-private-beta',
-    '/news/ai-infrastructure-investment',
+    '/product',
+    '/product/chatterbox',
+    '/product/wetrade',
+    '/product/sherlock',
+    '/news/anthropic-partnership-sherlock',
   ];
 
   return routes.map((route) => ({
