@@ -21,35 +21,35 @@ export default function LeadershipPage() {
     {
       name: "George Holmes",
       role: "Founder & CEO",
-      email: "george@semlohcorp.com",
+      email: "george@semlohsolutions.com",
       bio: "Leading the firm's strategic vision across software development and investment operations.",
       socials: { x: "#", linkedin: "#" }
     },
     {
       name: "Edward Spencer",
       role: "President",
-      email: "edward@semlohcorp.com",
+      email: "edward@semlohsolutions.com",
       bio: "Directing firm operations and institutional strategy across all business units.",
       socials: { x: "#", linkedin: "#" }
     },
     {
       name: "Connor Dugan",
       role: "CTO",
-      email: "connor@semlohcorp.com",
+      email: "connor@semlohsolutions.com",
       bio: "Overseeing technical architecture and product engineering for Semloh's software portfolio.",
       socials: { x: "#", linkedin: "#" }
     },
     {
       name: "Nico Paskitwitz",
       role: "Chief Investor Officer",
-      email: "nico@semlohcorp.com",
+      email: "nico@semlohsolutions.com",
       bio: "Managing capital allocation and portfolio strategy across public and private markets.",
       socials: { x: "#", linkedin: "#" }
     },
     {
       name: "Michael Chessare",
       role: "Board Member",
-      email: "micheal@semlohcorp.com",
+      email: "micheal@semlohsolutions.com",
       bio: "Providing governance and strategic oversight to the firm's executive leadership.",
       socials: { x: "#", linkedin: "#" }
     }

@@ -105,7 +105,7 @@ export default function ContactPage() {
         <div className="mt-24 pt-12 border-t grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="text-[10px] uppercase tracking-widest font-medium text-muted-foreground mb-4">Direct Email</h3>
-            <p className="font-normal">contact@semlohcorp.com</p>
+            <p className="font-normal">contact@semlohsolutions.com</p>
           </div>
           <div>
             <h3 className="text-[10px] uppercase tracking-widest font-medium text-muted-foreground mb-4">Headquarters</h3>
