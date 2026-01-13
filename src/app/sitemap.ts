@@ -18,6 +18,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/investors',
     '/newsroom',
     '/legal',
+    '/privacy',
+    '/terms',
+    '/news/expansion-technical-consulting',
+    '/news/wetrade-private-beta',
+    '/news/ai-infrastructure-investment',
   ];
 
   return routes.map((route) => ({

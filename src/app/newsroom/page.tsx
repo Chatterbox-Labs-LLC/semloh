@@ -10,21 +10,21 @@ export default function NewsroomPage() {
       title: "Semloh Solutions Announces Expansion of Technical Consulting Division",
       excerpt: "Responding to increased demand for institutional-grade digital transformation, the firm expands its boutique consulting team.",
       category: "Company News",
-      link: "#"
+      link: "/news/expansion-technical-consulting"
     },
     {
       date: "December 05, 2025",
       title: "WeTrade Platform Enters Private Beta for Institutional Partners",
       excerpt: "The next generation of institutional trading architecture reaches a major development milestone.",
       category: "Product Update",
-      link: "#"
+      link: "/news/wetrade-private-beta"
     },
     {
       date: "October 20, 2025",
       title: "Semloh Participates in Series A for AI-Driven Infrastructure Startup",
       excerpt: "Strategic capital allocation focused on the future of scalable cloud compute.",
       category: "Investment",
-      link: "#"
+      link: "/news/ai-infrastructure-investment"
     }
   ];
 
