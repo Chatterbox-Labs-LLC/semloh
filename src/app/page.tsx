@@ -11,7 +11,7 @@ export default function Home() {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="pt-32 pb-24 px-8 md:pt-48 md:pb-40 flex flex-col items-center text-center">
+        <section className="pt-20 pb-24 px-8 md:pt-32 md:pb-40 flex flex-col items-center text-center">
           <div className="mb-8 flex items-center gap-2">
             <div className="h-px w-8 bg-zinc-300 dark:bg-zinc-700" />
             <span className="text-[10px] uppercase tracking-[0.2em] font-medium text-muted-foreground">Operating at the intersection of Tech & Capital</span>
