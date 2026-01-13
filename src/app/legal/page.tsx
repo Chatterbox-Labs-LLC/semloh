@@ -28,9 +28,10 @@ export default function LegalPage() {
                 <nav className="flex flex-col space-y-4">
                   <a href="#entities" className="text-sm font-medium hover:opacity-60 transition-opacity">Global Entities</a>
                   <a href="#trademarks" className="text-sm font-medium hover:opacity-60 transition-opacity">Intellectual Property</a>
+                  <a href="#compliance" className="text-sm font-medium hover:opacity-60 transition-opacity">Regulatory Compliance</a>
+                  <a href="#ai-ethics" className="text-sm font-medium hover:opacity-60 transition-opacity">AI & Ethics</a>
                   <a href="#terms" className="text-sm font-medium hover:opacity-60 transition-opacity">Terms of Service</a>
                   <a href="#privacy" className="text-sm font-medium hover:opacity-60 transition-opacity">Privacy Policy</a>
-                  <a href="#disclosures" className="text-sm font-medium hover:opacity-60 transition-opacity">Institutional Disclosures</a>
                 </nav>
               </div>
             </aside>
@@ -91,6 +92,46 @@ export default function LegalPage() {
                   <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Content Rights</h3>
                   <p>
                     All editorial content, news releases, and research materials published by Semloh Solutions are the property of the Firm. Reproduction of these materials requires explicit attribution and prior written consent.
+                  </p>
+                </div>
+              </section>
+
+              {/* Regulatory Compliance */}
+              <section id="compliance" className="space-y-8">
+                <h2 className="text-3xl font-medium uppercase tracking-tight">Regulatory Compliance</h2>
+                <div className="prose prose-zinc dark:prose-invert max-w-none space-y-6 text-muted-foreground font-normal leading-relaxed">
+                  <p>
+                    As a global firm operating at the intersection of finance and technology, Semloh Solutions maintains rigorous compliance standards across all jurisdictions.
+                  </p>
+                  
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">AML & KYC</h3>
+                  <p>
+                    We strictly adhere to Anti-Money Laundering (AML) and Know Your Customer (KYC) regulations. For institutional software deployments and investment partnerships, we perform comprehensive due diligence to ensure the integrity of our financial ecosystem.
+                  </p>
+
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Data Sovereignty</h3>
+                  <p>
+                    In accordance with GDPR (EU), CCPA (USA), and other regional data protection frameworks, we respect data sovereignty. Our technical infrastructure is designed to allow for localized data residency based on the specific requirements of our global entities in the Americas, Europe, Asia, and Oceania.
+                  </p>
+                </div>
+              </section>
+
+              {/* AI & Ethics */}
+              <section id="ai-ethics" className="space-y-8">
+                <h2 className="text-3xl font-medium uppercase tracking-tight">AI & Ethics Policy</h2>
+                <div className="prose prose-zinc dark:prose-invert max-w-none space-y-6 text-muted-foreground font-normal leading-relaxed">
+                  <p>
+                    Our software development and algorithmic trading research are guided by a commitment to ethical AI and transparency.
+                  </p>
+                  
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Algorithmic Integrity</h3>
+                  <p>
+                    We prioritize the elimination of bias in our technical architectures. All automated systems developed by the Firm undergo rigorous testing to ensure fairness, reliability, and institutional-grade safety.
+                  </p>
+
+                  <h3 className="text-lg font-medium text-black dark:text-white uppercase tracking-widest mt-12 mb-4">Human Oversight</h3>
+                  <p>
+                    Despite our focus on automation, all critical decision-making processes—particularly in our consulting and investment divisions—are subject to final human review and oversight.
                   </p>
                 </div>
               </section>
