@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
@@ -69,6 +70,4 @@ export default function InvestorsPage() {
     </div>
   );
 }
-
-import { Footer } from "@/components/footer";
 

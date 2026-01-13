@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/footer";
 
 export default function InvestingPage() {
   return (
@@ -77,6 +78,4 @@ export default function InvestingPage() {
     </div>
   );
 }
-
-import { Footer } from "@/components/footer";
 

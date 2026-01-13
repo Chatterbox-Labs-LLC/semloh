@@ -109,7 +109,7 @@ export default function ContactPage() {
           </div>
           <div>
             <h3 className="text-[10px] uppercase tracking-widest font-medium text-muted-foreground mb-4">Headquarters</h3>
-            <p className="font-normal">New York, NY</p>
+            <p className="font-normal">Chicago, IL</p>
           </div>
         </div>
       </main>

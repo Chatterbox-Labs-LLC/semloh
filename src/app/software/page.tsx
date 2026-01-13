@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { Code2, Cpu, Rocket } from "lucide-react";
 
 export default function SoftwarePage() {
   return (
@@ -80,6 +80,4 @@ export default function SoftwarePage() {
     </div>
   );
 }
-
-import { Footer } from "@/components/footer";
 
