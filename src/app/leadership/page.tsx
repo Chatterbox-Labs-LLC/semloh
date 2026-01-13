@@ -19,6 +19,7 @@ const LinkedInIcon = ({ className }: { className?: string }) => (
 export default function LeadershipPage() {
   const leaders = [
     {
+      slug: "george-holmes",
       name: "George Holmes",
       role: "Founder & CEO",
       email: "george@semlohsolutions.com",
@@ -26,6 +27,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
+      slug: "edward-spencer",
       name: "Edward Spencer",
       role: "President",
       email: "edward@semlohsolutions.com",
@@ -33,6 +35,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
+      slug: "connor-dugan",
       name: "Connor Dugan",
       role: "CTO",
       email: "connor@semlohsolutions.com",
@@ -40,6 +43,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
+      slug: "nico-paskitwitz",
       name: "Nico Paskitwitz",
       role: "Chief Investor Officer",
       email: "nico@semlohsolutions.com",
@@ -47,9 +51,10 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
+      slug: "michael-chessare",
       name: "Michael Chessare",
       role: "Board Member",
-      email: "micheal@semlohsolutions.com",
+      email: "michael@semlohsolutions.com",
       bio: "Providing governance and strategic oversight to the firm's executive leadership.",
       socials: { x: "#", linkedin: "#" }
     }
@@ -69,26 +74,30 @@ export default function LeadershipPage() {
         <section className="py-24 px-8 max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
             {leaders.map((leader) => (
-              <div key={leader.name} className="space-y-4">
-                <div className="border-b pb-4">
+              <Link 
+                key={leader.name} 
+                href={`/leadership/${leader.slug}`}
+                className="group space-y-4 block"
+              >
+                <div className="border-b pb-4 group-hover:border-black dark:group-hover:border-white transition-colors">
                   <div className="flex justify-between items-start">
                     <div className="text-lg font-medium uppercase tracking-widest">{leader.name}</div>
                     <div className="flex gap-2">
-                      <Link href={leader.socials.x} className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+                      <div className="text-muted-foreground group-hover:text-black dark:group-hover:text-white transition-colors">
                         <XIcon className="h-3.5 w-3.5" />
-                      </Link>
-                      <Link href={leader.socials.linkedin} className="text-muted-foreground hover:text-black dark:hover:text-white transition-colors">
+                      </div>
+                      <div className="text-muted-foreground group-hover:text-black dark:group-hover:text-white transition-colors">
                         <LinkedInIcon className="h-3.5 w-3.5" />
-                      </Link>
+                      </div>
                     </div>
                   </div>
                   <div className="text-[10px] text-muted-foreground uppercase tracking-tight font-normal">{leader.role}</div>
                   <div className="text-[10px] text-muted-foreground mt-1 lowercase font-normal">{leader.email}</div>
                 </div>
-                <p className="text-sm text-muted-foreground font-normal leading-relaxed">
+                <p className="text-sm text-muted-foreground font-normal leading-relaxed group-hover:text-black dark:group-hover:text-white transition-colors">
                   {leader.bio}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </section>
