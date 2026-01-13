@@ -17,7 +17,7 @@ const LinkedInIcon = ({ className }: { className?: string }) => (
 );
 
 const leaders = {
-  "george-holmes": {
+  "george": {
     name: "George Holmes",
     role: "Founder & CEO",
     email: "george@semlohsolutions.com",
@@ -25,7 +25,7 @@ const leaders = {
     extendedBio: "George's leadership is defined by a commitment to technical precision and a multi-disciplinary approach to problem-solving. He oversees the firm's core software projects, including WeTrade and Sherlock, while directing capital allocation strategies that support the next generation of technical infrastructure. His vision for Semloh is built on the belief that small, highly-capable teams are the most effective engines of innovation.",
     socials: { x: "#", linkedin: "#" }
   },
-  "edward-spencer": {
+  "edward": {
     name: "Edward Spencer",
     role: "President",
     email: "edward@semlohsolutions.com",
@@ -33,7 +33,7 @@ const leaders = {
     extendedBio: "Edward brings extensive experience in operational management and institutional growth. As President, he is responsible for the firm's day-to-day operations and the long-term strategic alignment of its diverse business units. He ensures that Semloh's consulting, software, and investment divisions operate with the same high standards of excellence and transparency.",
     socials: { x: "#", linkedin: "#" }
   },
-  "connor-dugan": {
+  "connor": {
     name: "Connor Dugan",
     role: "CTO",
     email: "connor@semlohsolutions.com",
@@ -41,7 +41,7 @@ const leaders = {
     extendedBio: "Connor is the architect of Semloh's technical future. As CTO, he leads the engineering teams responsible for WeTrade, Chatterbox, and our advanced AI research. His focus on low-latency systems and secure distributed architectures ensures that Semloh's software remains at the forefront of the industry. Connor is dedicated to maintaining a culture of engineering excellence and rigorous technical due diligence.",
     socials: { x: "#", linkedin: "#" }
   },
-  "nico-paskitwitz": {
+  "nico": {
     name: "Nico Paskitwitz",
     role: "Chief Investor Officer",
     email: "nico@semlohsolutions.com",
@@ -49,7 +49,7 @@ const leaders = {
     extendedBio: "Nico leads Semloh's investment division with a focus on high-conviction technical ventures. His approach to capital allocation is rooted in deep technical understanding and a long-term view of market evolution. Nico oversees the firm's portfolio strategy, ensuring that every investment aligns with our core mission of supporting fundamental technical innovation.",
     socials: { x: "#", linkedin: "#" }
   },
-  "michael-chessare": {
+  "michael": {
     name: "Michael Chessare",
     role: "Board Member",
     email: "michael@semlohsolutions.com",

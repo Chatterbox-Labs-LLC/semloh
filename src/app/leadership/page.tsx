@@ -19,7 +19,7 @@ const LinkedInIcon = ({ className }: { className?: string }) => (
 export default function LeadershipPage() {
   const leaders = [
     {
-      slug: "george-holmes",
+      slug: "george",
       name: "George Holmes",
       role: "Founder & CEO",
       email: "george@semlohsolutions.com",
@@ -27,7 +27,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
-      slug: "edward-spencer",
+      slug: "edward",
       name: "Edward Spencer",
       role: "President",
       email: "edward@semlohsolutions.com",
@@ -35,7 +35,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
-      slug: "connor-dugan",
+      slug: "connor",
       name: "Connor Dugan",
       role: "CTO",
       email: "connor@semlohsolutions.com",
@@ -43,7 +43,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
-      slug: "nico-paskitwitz",
+      slug: "nico",
       name: "Nico Paskitwitz",
       role: "Chief Investor Officer",
       email: "nico@semlohsolutions.com",
@@ -51,7 +51,7 @@ export default function LeadershipPage() {
       socials: { x: "#", linkedin: "#" }
     },
     {
-      slug: "michael-chessare",
+      slug: "michael",
       name: "Michael Chessare",
       role: "Board Member",
       email: "michael@semlohsolutions.com",

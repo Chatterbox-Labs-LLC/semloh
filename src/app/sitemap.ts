@@ -25,11 +25,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/product/wetrade',
     '/product/sherlock',
     '/news/anthropic-partnership-sherlock',
-    '/leadership/george-holmes',
-    '/leadership/edward-spencer',
-    '/leadership/connor-dugan',
-    '/leadership/nico-paskitwitz',
-    '/leadership/michael-chessare',
+    '/leadership/george',
+    '/leadership/edward',
+    '/leadership/connor',
+    '/leadership/nico',
+    '/leadership/michael',
   ];
 
   return routes.map((route) => ({
